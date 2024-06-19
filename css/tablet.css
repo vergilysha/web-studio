@@ -1,0 +1,344 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 744px) and (max-width: 1279px) {
+    .header {
+        width: 726px;
+        height: 323px;
+        margin: 0 auto;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav_wraper {
+        width: 527px;
+        height: 34px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav_text {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        text-decoration: none;
+    }
+
+    .web-studia {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .title_header {
+        font-family: Playfair Display;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 80px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #202336;
+        margin: 0;
+    }
+
+    .text_header {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #202336;
+        margin: 0;
+    }
+    .cont {
+        margin: 0 auto;
+    }
+    .nav_text:hover {
+        color: black;
+        text-decoration: underline orange;
+    }
+
+    .button {
+        width: 160px;
+        height: 45px;
+        border-radius: 8px;
+        background: #F6A410;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        border: none;
+    }
+
+    .button_text {
+        font-size: 26px;
+        color: white;
+        font-weight: 700;
+        font-family: Playfair Display;
+    }
+
+    .meni {
+        display: none;
+
+    }
+
+    input {
+        display: none;
+    }
+
+    .what_web-studia {
+        width: 726px;
+        height: 547px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .what_web-studia_h3 {
+        font-family: Playfair Display;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .what_web-studia_text {
+        width: 726px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    .web-studia-photo {
+        width: 604px;
+        height: 223px;
+        margin: 0 auto;
+    }
+
+    .web-studia-element-1 {
+        width: 17px;
+        height: 18px;
+        left: 650px;
+        position: relative;
+        top: -50px;
+    }
+
+    /* БЛОК ІСТОРІЯ ТАБЛЕТ */
+
+    .web-studia-element-1,
+    .history-element-2 {
+        display: none;
+    }
+
+    .history {
+        width: 726px;
+        margin: 0 auto;
+    }
+
+    .history-h3 {
+        font-family: Playfair Display;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    .about-history {
+        height: 1096px;
+        width: auto;
+        display: flex;
+        justify-content: start;
+        position: relative;
+    }
+
+    .history-time-line {
+        height: 1096px;
+        margin-right: 10px;
+    }
+
+    .about-histoty-abzax {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .history-abzax-h5 {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+
+    .history-abzax-1 {
+        width: 691px;
+        height: 197px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .history-information-text-2 {
+        width: 695px;
+        height: 221px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .history-abzax-3 {
+        width: 700px;
+        height: 271px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .history-abzax-p-2,
+    .history-abzax-p,
+    .historsy-abzax-p {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+
+    picture {
+        margin-left: 100px;
+    }
+    .what_web-studia {
+        width: 726px;
+      height: 547px;
+      display: flex;
+      flex-direction: column;
+    }
+    .footer_block_h5 {
+        font-family: Playfair Display;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+    
+    }
+    .footer_p_text {
+        font-family: Mulish;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 35px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .perexod{
+        margin-top: 20px;
+        width: 240px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .perexod a:not(:last-child){
+        margin-right: 28px;
+    }
+    .footer {
+        width: 744px;
+      height: 430px;
+      background:#DAF1E982;
+      display: flex;
+      flex-direction: column;
+      padding: 10px 9px 10px 9px;
+      align-items: center;
+      margin: 0 auto;
+    }
+    .rect {
+        margin-top: 245px;
+        width: 600px;
+      height: 1.2px;
+    }
+    .what_web-studia_h3 {
+        font-family: Playfair Display;
+      font-size: 34px;
+      font-weight: 700;
+      line-height: 50px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .what_web-studia_text {
+        width: 726px;
+        font-family: Inter;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 25px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-bottom: 15px;
+    }
+    .logotwo {
+        margin: 0 auto;
+        display: 	flex;
+    }
+    .two {
+      margin-right: 9px;
+    }
+    .three {
+      margin-right: 9px;
+    }
+    .four {
+      margin-right: 9px;
+    }
+    .five {
+      margin-right: 9px;
+    }
+    .footer_p_text_mini {
+        text-align: center;
+        margin-top: 10px;
+        font-family: Mulish;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 28px;
+      letter-spacing: 0em;
+    }
+    .web-studia-photo {
+      width: 604px;
+      height: 223px;
+      margin: 0 auto;
+    }
+    .web-studia-element-1 {
+        width: 17px;
+        height: 18px;
+        left: 650px;
+      position: relative;
+      top: -50px;
+    }
+    .logotwo {
+        margin: 0 auto;
+        width: 82px;
+    height: 76px;
+    
+    }
+    .one {
+        height: 65px;
+        margin-bottom: 25px;
+    }
+    .cont_block_2345 {
+        display: flex;
+        margin-top: 25px;
+    }
+    .footer_block_p_text_mini {
+        color: #717171;
+    }
+    .footer_p_text {
+        color: #717171;
+    }
+}
